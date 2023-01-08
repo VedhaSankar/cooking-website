@@ -6,7 +6,7 @@ html {
 }
 
 header {
-    background: #EAE0DA;
+    background: #65647C;
     padding: 10px;
     height: 120px;
     display: block;
@@ -29,13 +29,14 @@ header li:first-child {
 
 header ul li a {
     text-decoration: none;
-    color: rgb(48, 16, 16);
+    /* color: rgb(48, 16, 16); */
+    color: white;
 }
 
-header ul li a:hover {
+/* header ul li a:hover {
     color: rgb(157, 150, 255);
     text-decoration: underline;
-}
+} */
 
 .left {
     float: left;
@@ -52,7 +53,7 @@ header ul li a:hover {
     text-align: center;
     font-size: larger;
     font-family: "Lobster", Georgia, 'Times New Roman', Times, serif;
-    color: rgb(77, 40, 78);
+    color: #eccaaf;
 }
 
 .left,
@@ -75,7 +76,9 @@ body {
 
     margin: 0px;
     padding: 0px;
-    background: #b2b2c4;
+    /* background: #b2b2c4; */
+    background: #8B7E74;
+    /* background: #EAE0DA; */
     color: rgb(17, 0, 0);
     font-family: 'Times New Roman', sans-serif;
 
@@ -124,6 +127,7 @@ body {
 .container a {
     text-decoration: none;
     color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .item-left {
