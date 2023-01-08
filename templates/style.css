@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+header {
+    background: #EAE0DA;
+    padding: 10px;
+    height: 120px;
+    display: block;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+
+header li:first-child {
+    border-right: 1px solid rgb(48, 16, 16);
+}
+
+header ul li a {
+    text-decoration: none;
+    color: rgb(48, 16, 16);
+}
+
+header ul li a:hover {
+    color: rgb(157, 150, 255);
+    text-decoration: underline;
+}
+
+.left {
+    float: left;
+    width: 320px;
+}
+
+.right {
+    float: right;
+    width: 320px;
+}
+
+
+.mid {
+    text-align: center;
+    font-size: larger;
+    font-family: "Lobster", Georgia, 'Times New Roman', Times, serif;
+}
+
+.left,
+ul,
+a {
+
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.right,
+ul,
+a {
+
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+body {
+
+    margin: 0px;
+    padding: 0px;
+    background: #b2b2c4;
+    color: rgb(17, 0, 0);
+    font-family: 'Times New Roman', sans-serif;
+
+}
